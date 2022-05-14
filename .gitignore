@@ -1,0 +1,32 @@
+# Charcoal
+# -------
+
+/config/admin.*.*
+!/config/admin.sample.*
+/config/config.*.*
+!/config/config.sample.*
+/uploads/
+/www/uploads
+/var/
+
+# Package Managers
+# -------
+
+composer.phar
+/vendor/
+/node_modules/
+/bower_components/
+
+# Logging
+# -------
+
+*.log
+error_log
+/logs/
+
+# Caches
+# -------
+
+/cache/
+/tmp/
+/.phpunit.result.cache

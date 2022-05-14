@@ -1,0 +1,77 @@
+{
+    "project_name": "Acme",
+    "timezone": "America/Montreal",
+    "admin_config": "config/admin.php",
+    "apis": {
+        "google": {
+            "analytics": {
+                "tracking_id": ""
+            }
+        },
+        "typekit": {
+            "kit_id": ""
+        }
+    },
+    "cache": {
+        "active": true,
+        "types": [ "apc", "memcache", "redis" ],
+        "prefix": "app"
+    },
+    "email": {
+        "default_from": {
+            "email": null,
+            "name": null
+        }
+    },
+    "locales": {
+        "languages": {
+            "fr": {
+                "locale": "fr-FR"
+            },
+            "en": {
+                "locale": "en-US"
+            }
+        },
+        "default_language": "fr"
+    },
+    "logger": {
+        "active": true,
+        "level": "warning"
+    },
+    "metadata": {
+        "paths": [
+            "metadata/",
+            "vendor/locomotive-charcoal/charcoal/packages/charcoal-admin/metadata/",
+            "vendor/locomotive-charcoal/charcoal/packages/charcoal-app/metadata/",
+            "vendor/locomotive-charcoal/charcoal/packages/charcoal-attachment/metadata/",
+            "vendor/locomotive-charcoal/charcoal/packages/charcoal-cms/metadata/",
+            "vendor/locomotive-charcoal/charcoal/packages/charcoal-email/metadata/",
+            "vendor/locomotive-charcoal/charcoal/packages/charcoal-object/metadata/",
+            "vendor/locomotive-charcoal/charcoal/packages/charcoal-property/metadata/",
+            "vendor/locomotive-charcoal/charcoal/packages/charcoal-user/metadata/"
+        ]
+    },
+    "modules": {
+        "charcoal/admin/admin": {}
+    },
+    "service_providers": {
+        "app/service-provider/app": {}
+    },
+    "translator": {
+        "paths": [
+            "translations/app/",
+            "vendor/locomotive-charcoal/charcoal/packages/charcoal-admin/translations/",
+            "vendor/locomotive-charcoal/charcoal/packages/charcoal-app/translations/",
+            "vendor/locomotive-charcoal/charcoal/packages/charcoal-attachment/translations/"
+        ]
+    },
+    "view": {
+        "paths": [
+            "views/",
+            "vendor/locomotive-charcoal/charcoal/packages/charcoal-admin/templates/",
+            "vendor/locomotive-charcoal/charcoal/packages/charcoal-app/templates/",
+            "vendor/locomotive-charcoal/charcoal/packages/charcoal-attachment/templates/",
+            "vendor/locomotive-charcoal/charcoal/packages/charcoal-cms/views/"
+        ]
+    }
+}
